@@ -1,0 +1,6 @@
+<!ELEMENT images (image*)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image src CDATA #REQUIRED
+                thumbSrc CDATA #REQUIRED 
+                h CDATA #REQUIRED
+                cluster CDATA #REQUIRED>
