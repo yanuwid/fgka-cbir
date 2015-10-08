@@ -1,5 +1,0 @@
-<!ELEMENT images (image*)>
-<!ELEMENT image (#PCDATA)>
-<!ATTLIST image src CDATA #REQUIRED 
-                rgb CDATA #REQUIRED
-                cluster CDATA #REQUIRED>
